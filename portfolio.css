@@ -171,7 +171,7 @@
 
 /***** VIDEO STYLING *****/
     /* BACKGROUND VIDEO - FORMATTING */
-    #Portland_Video {
+    #Welcome_Video {
         position: fixed;
         right: 0;
         bottom: 0;
@@ -180,7 +180,7 @@
     }
 
         @media screen and (max-width: 576px) {
-            #Portland_Video {
+            #Welcome_Video {
                 display: none;
             }
         }
