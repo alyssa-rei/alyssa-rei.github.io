@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alyssa Rei</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+    </head>
+
+
+
+
+    
+    <!-- BODY -->
+    <body class="Background">
+        
+        <!-- NAVIGATION BAR -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div> 
+        <!-- END NAVIGATION BAR -->
+    
+        <br><br>
+
+        <!-- BACKGROUND VIDEO -->
+        <div id="Home">
+            <video autoplay muted loop id="Welcome_Video">
+                <source src="media/videos/pexels-rostislav-uzunov-5680034.mp4" type="video/mp4">
+                <!-- Message displayed when video is not supported by browser -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- BACKGROUND VIDEO - TEXT OVERLAY -->
+        <div class="Video_Text">
+            <h1 class="white-text">Welcome</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.</q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Alyssa. Welcome to my portfolio website.
+                    <br> On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you, for stopping by and I hope you enjoy what you see!
+                </p>
+            </strong>
+        </div>
+
+        <!-- ABOUT ME & LINKEDIN LINK -->
+            <div class="Row" id="About">
+                <!-- LEFT COLUMN: RESUME IMAGE & LINKEDIN LOGO - LINKED -->
+                    <div class="Column_2">
+                        <a href="https://www.linkedin.com/in/alyssa-rei-a64240227" target="_blank"><img src="media/images/LI-In-Bug.png" alt="LinkedIn Logo" style="width: auto; height: auto; max-width: 50%;"></a>
+                    </div>
+                <!-- RIGHT COLUMN: ABOUT ME -->
+                    <div class="Column_1">
+                        <h1>About</h1>
+                        <p style="text-align: center;">
+                            You can view my LinkedIn profile here:<br>
+                            <a href="https://www.linkedin.com/in/alyssa-rei-a64240227" target="_blank">
+                                Alyssa's LinkedIn</a>
+                        </p>
+                    </div>
+            </div>
+        <!-- ABOUT ME & LINKEDIN LINK -->
+
+
+
+        <!-- GITHUB SECTION -->
+            <div class="Row" id="GitHub">
+                <!-- LEFT COLUMN: GITHUB DESCRIPTION & LINK -->
+                    <div class="Column_1">
+                        <h1>GitHub</h1>
+                        <p style="text-align: center;">
+                            You can view my coding projects on my GitHub profile here:<br>
+                            <a href="https://github.com/alyssa-rei" target="_blank">
+                                Alyssa's GitHub</a>
+                        </p>
+                    </div>
+                <!-- RIGHT COLUMN: GITHUB LOGO - LINKED -->
+                    <div class="Column_2">
+                        <a href="https://github.com/alyssa-rei" target="_blank"><img src="media/images/GitHub.png" alt="GitHub Logo"></a>
+                    </div>
+            </div>
+        <!-- END GITHUB SECTION -->
+
+
+
+        <!-- END CONTACT SECTION -->
+            <div class="Row" id="Contact">
+                <!-- LEFT COLUMN: CONTACT IMAGE -->
+                    <div class="Column_2 Column_tall">
+                        <img src="media/images/Contact.jpg" alt="Contact_Image">
+                    </div>
+                <!-- RIGHT COLUMN: CONTACT FORM -->
+                    <div class="Column_1 Column_tall">
+                        <h1>Contact</h1>
+                        <form action="https://formspree.io/f/xoqrbyed" method="POST">
+                            <label>Name:</label>
+                                <input type="text" placeholder="Please enter your name here">
+                            <label>E-mail:</label>
+                                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                            <label>Message:</label>
+                                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                                <input type="submit" value="SUBMIT">
+                        </form>
+                    </div>
+            </div>
+        <!-- END CONTACT SECTION -->
+
+        <!-- FOOTER -->
+            <footer>
+                <p>
+                    <p class="center">&copy; Alyssa Rei</p>
+                    <br>
+                </p>
+            </footer>
+    </body>
+</html>
