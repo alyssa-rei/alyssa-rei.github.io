@@ -1,6 +1,7 @@
 /* Body - Start */
     body {
         margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
+        background-color: #050A30;
         font-family: Avant Garde, Helvetica;
         font-size: 1.5vw; 
         overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
