@@ -2,7 +2,7 @@
     body {
         margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
         background-color: #050A30;
-        font-family: Avant Garde, Helvetica;
+        font-family: baskerville, serif;
         font-size: 1.5vw; 
         overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
         user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
@@ -11,7 +11,7 @@
     /* Paragraphs Style */
     p {
         color: white;
-        font-family: Helvetica, Arial, sans-serif Bold;
+        font-family: baskerville, serif;
         text-align: justify;
         letter-spacing: .1vw; /* This expands the text slightly */
         font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
