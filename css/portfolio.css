@@ -47,7 +47,7 @@
         padding: .75vw .75vw; /* This adds padding around our text */
         text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
         font-family: Helvetica; /* This specifies the font family for text on our navbar */
-        font-size: 1vw; /* This specifies the font size for text on our navbar */
+        font-size: 1.5vw; /* This specifies the font size for text on our navbar */
         text-align: center; /* This centers the text within its container */
         position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
         -webkit-animation: moveNavText 3s; /* Animation for Safari 4.0 - 8.0 */
