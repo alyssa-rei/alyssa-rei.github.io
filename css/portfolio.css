@@ -1,7 +1,7 @@
 /* Body - Start */
     body {
         margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
-        background-color: #050A30;
+        background-color: #000;
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.5vw; 
@@ -28,10 +28,11 @@
         background-color: #F4EBD0; /* This colors the navbar CREAM */
         position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
         top: 0; /* This ensures no space is displayed above the navbar */
-        width: 100%; /* This makes the navbar span the entire width of the page */
+        height: 100%;
+        width: 7%; /* This makes the navbar span the entire width of the page */
         z-index: 1; /* This ensures other elements don't display over the navbar */
-        -webkit-animation: moveNav 2s; /* Safari 4.0 - 8.0 */
-        animation: moveNav 2s; /* This makes the moveNav animation last 2 seconds */
+        -webkit-animation: moveNav 1s; /* Safari 4.0 - 8.0 */
+        animation: moveNav 1s; /* This makes the moveNav animation last 2 seconds */
     }
 
         @keyframes moveNav {
@@ -44,14 +45,14 @@
         float: left; /* This specifies that the text floats on the left on the navbar */
         display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
         color: #000C66; /* This is the font color for text on our navbar */
-        padding: .75vw .75vw; /* This adds padding around our text */
+        padding: .5vw .5vw; /* This adds padding around our text */
         text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
         font-family: Helvetica; /* This specifies the font family for text on our navbar */
-        font-size: 1.5vw; /* This specifies the font size for text on our navbar */
+        font-size: 1.25vw; /* This specifies the font size for text on our navbar */
         text-align: center; /* This centers the text within its container */
         position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-        -webkit-animation: moveNavText 3s; /* Animation for Safari 4.0 - 8.0 */
-        animation: moveNavText 3s; /* Applies the moveNavText animation for 5.75s */ 
+        -webkit-animation: moveNavText 2s; /* Animation for Safari 4.0 - 8.0 */
+        animation: moveNavText 2s; /* Applies the moveNavText animation for 5.75s */ 
     }
 
         @keyframes moveNavText {
