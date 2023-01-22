@@ -79,7 +79,7 @@
 
 /* About - Start */
     .about-me {
-        text-align: right;
+        text-align: center;
         user-select: none;
     }
 /* About - End */
@@ -103,9 +103,19 @@
     p {
         font-family: 'DotGothic16', sans-serif;
         color: #5579ad;
+        font-weight: 600;
         letter-spacing: .1vw; /* This expands the text slightly */
         font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
         padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
         padding-right: 1vw; /* Relative padding equal to 1% of the viewport width */
+    }
+    /* Buttons Style */
+    .buttons-style {
+        position: fixed;
+        top: 0px;
+        bottom: auto;
+        right: 0px;
+        left: auto;
+        z-index: 1;
     }
 /* Body - End */
