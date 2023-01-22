@@ -27,7 +27,7 @@
         color: #000C66; /* This is the font color for text on our navbar */
         padding: .5vw .5vw; /* This adds padding around our text */
         text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-        font-family: Helvetica; /* This specifies the font family for text on our navbar */
+        font-family: 'DotGothic16', sans-serif; /* This specifies the font family for text on our navbar */
         font-size: 1.25vw; /* This specifies the font size for text on our navbar */
         text-align: center; /* This centers the text within its container */
         position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -81,7 +81,7 @@
         margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
         background-color: #55cdc9;
         color: white;
-        font-family: 'DotGothic16', sans-serif;
+        font-family: sans-serif;
         font-size: 1.5vw; 
         overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
         user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
@@ -90,9 +90,9 @@
     /* Paragraphs Style */
     p {
         background-color: #66cccc;
+        font-family: sans-serif;
         color: #5579ad;
         letter-spacing: .1vw; /* This expands the text slightly */
-        font-family: 'DotGothic16', sans-serif;
         font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
         padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
         padding-right: 1vw; /* Relative padding equal to 1% of the viewport width */
