@@ -62,15 +62,27 @@
 
 /* Portrait - Start */
     .portrait-style {
-        background-image: url("media/images/Portrait.png");
+        background-image: url("");
         position: fixed;
         top: 0px;
         bottom: auto;
         right: 0px;
         left: auto;
         height: 50%;
+        z-index: -10;
     }
 /* Portrait - End */
+
+
+
+
+
+/* About - Start */
+    .about-me {
+        text-align: right;
+        user-select: none;
+    }
+/* About - End */
 
 
 
@@ -81,7 +93,7 @@
         margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
         background-color: #55cdc9;
         color: white;
-        font-family: sans-serif;
+        font-family: 'DotGothic16', sans-serif;
         font-size: 1.5vw; 
         overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
         user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
@@ -89,8 +101,7 @@
     }
     /* Paragraphs Style */
     p {
-        background-color: #66cccc;
-        font-family: sans-serif;
+        font-family: 'DotGothic16', sans-serif;
         color: #5579ad;
         letter-spacing: .1vw; /* This expands the text slightly */
         font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
