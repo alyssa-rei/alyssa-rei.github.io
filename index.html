@@ -1,68 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <!-- HEAD -->
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>Alyssa Rei</title>
-        
-        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+        <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
+        <link rel="stylesheet" type="text/css" href="css/sample_portfolio.css">
     </head>
 
-    <body>
-        <!--Navigation Bar
-            <div>
-                <div class="Navbar">
-                    <a href="#Home">Home</a>
-                    <a href="#About">About</a>
-                    <a href="#Projects">Projects</a>
-                    <a href="#Contact">Contact</a>
-                    <!--Insert Contact images/links here
-                </div>
-            </div>
-        Navigation Bar: End-->
 
 
 
-        <!--Portrait / Background: Start-->
-            <div class="portrait-style">
-                <div>
-                <img src="media/images/Portrait.png">
-                </div>    
-            </div>
-        <!--Portrait / Background: End-->
+    
+    <!-- BODY -->
+    <body class="Background">
         
-        
-        
-        <!--About: Start-->
-            <div>
-                <div class="about-me">
-                Hey, there!<br>
-                My name is<br>
-                <p>Alyssa Rei</p>
-                I'm a full-stack software developer,<br>
-                based in Portland, Oregon.<br><br>
-                I have experience with HTML, CSS, JavaScript,<br>
-                Python, C#, .NET Framework, ASP.NET,<br>
-                MVC, Back-end development, Databases, and SQL.
-                    <img src="media/images/Button.png">
+        <!-- NAVIGATION BAR -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <!-- New section -->
+            <a href="#Slideshow">Slideshow</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <!-- Onclick and ondblclick functions added to open and close the contact form -->
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+        </div> 
+        <!-- END NAVIGATION BAR -->
+    
+
+        <br><br>
+
+
+        <!-- BACKGROUND VIDEO -->
+        <div id="Home">
+            <video autoplay muted loop id="Background_Video">
+                <source src="media/videos/pexels-rostislav-uzunov-5680034.mp4" type="video/mp4">
+                <!-- Message displayed when video is not supported by browser -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- BACKGROUND VIDEO - TEXT OVERLAY -->
+        <div class="Video_Text">
+            <h1 class="white-text">Hey, there!</h1>
+            <strong>
+                <p class="center">
+                    <br> My name is Alyssa
+                    <br> and welcome to my portfolio website.
+                    <br> On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you, for stopping by and I hope you enjoy what you see!
+                </p>
+            </strong>
+        </div>
+
+
+
+
+
+        <!-- SLIDESHOW -->
+        <!-- Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/IMG_1002.JPG" alt="Portrait">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/Python.png" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/SQL_and_Database.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="media/images/IMG_0810.JPG" alt="Additional Photo - Placeholder"> 
+                        <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
                 </div>
             </div>
-        <!--About: End-->
-        
-        
-        
-        <!--Buttons: Start-->
-            <div>
-                <div class="buttons-style">
-                    <img src="media/images/Button.png">
-                </div>
+        </div>
+        <!-- END SLIDESHOW -->
+
+
+
+
+
+        <!-- ABOUT ME & LINKEDIN LINK -->
+            <div class="Row" id="About">
+                <!-- LEFT COLUMN: RESUME IMAGE & LINKEDIN LOGO - LINKED -->
+                    <div class="Column_2">
+                        <a href="https://www.linkedin.com/in/alyssa-rei-a64240227" target="_blank"><img src="media/images/LI-In-Bug.png" alt="LinkedIn Logo" style="width: auto; height: auto; max-width: 50%;"></a>
+                    </div>
+                <!-- RIGHT COLUMN: ABOUT ME -->
+                    <div class="Column_1">
+                        <h1>About</h1>
+                        <p style="text-align: center;">
+                            You can view my LinkedIn profile here:<br>
+                            <a href="https://www.linkedin.com/in/alyssa-rei-a64240227" target="_blank">
+                                Alyssa's LinkedIn</a>
+                        </p>
+                    </div>
             </div>
-        <!--Buttons: End--> 
-        
-        
-        
-        <!--JavaScript: Start-->
-            <script src="js/portfolio.js"></script>
-        <!--JavaScript: End -->
+        <!-- END ABOUT ME & LINKEDIN LINK -->
+
+
+
+
+
+        <!-- GITHUB SECTION -->
+            <div class="Row" id="GitHub">
+                <!-- LEFT COLUMN: GITHUB DESCRIPTION & LINK -->
+                    <div class="Column_1">
+                        <h1>GitHub</h1>
+                        <p style="text-align: center;">
+                            You can view my coding projects on my GitHub profile here:<br>
+                            <a href="https://github.com/alyssa-rei" target="_blank">
+                                Alyssa's GitHub</a>
+                        </p>
+                    </div>
+                <!-- RIGHT COLUMN: GITHUB LOGO - LINKED -->
+                    <div class="Column_2">
+                        <a href="https://github.com/alyssa-rei" target="_blank"><img src="media/images/GitHub.png" alt="GitHub Logo"></a>
+                    </div>
+            </div>
+        <!-- END GITHUB SECTION -->
+
+
+
+
+
+        <!-- CONTACT FORM -->
+            <div id="Contact">
+                <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+                    <div class="form-popup" id="myForm">
+                    <form action="https://formspree.io/f/xoqrbyed" method="POST" class="form-container">
+                <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Type your name here" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Type your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>		
+                    <input type="text" placeholder="Type your email address here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                    <input type="text" placeholder="Type your message here" name="message">
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+            </form>
+            </div>
+            </div>
+        <!-- END CONTACT SECTION -->
+
+
+
+
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            <p class="center" style="color: darkturquoise">&copy; Alyssa Rei</p>
+            <br>
+        </p>
+        <script src="js/portfolio.js"></script>
+    </footer>
+
     </body>
 </html>
