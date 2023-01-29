@@ -8,8 +8,6 @@
         body {
             margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
             opacity: 1; /* This and transition affect the page loading fade in effect */
-            letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
-            font-size: 1.5vw; 
             overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
             user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
         }
