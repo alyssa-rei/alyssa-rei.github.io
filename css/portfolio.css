@@ -249,10 +249,13 @@
     
     /* Media rules to increase the size of the columns for larger screens */
     @media screen and (min-width: 1725px) {
-        .Column_1 {
+        .column {
             height: 550px;
         }
-        .Column_2 {
+        .column.middle{
+            height: 550px;
+        }
+        .column.side{
             height: 550px;
         }
     }
