@@ -112,7 +112,7 @@
         /* Create three unequal columns that floats next to each other */
         .column {
             float: left;
-            padding-top: 6vh;
+            padding-top: 8vh;
             top: 8vh;
             padding: 10px;
             height: 300px; /* Should be removed. Only for demonstration */
@@ -120,7 +120,7 @@
         
         /* Left and right column */
         .column.side {
-            padding-top: 6vh;
+            padding-top: 8vh;
             top: 8vh;
             width: 25%;
         }
@@ -128,7 +128,7 @@
         /* Middle column */
         .column.middle {
             position: fixed;
-            padding-top: 6vh;
+            padding-top: 8vh;
             top: 8vh;
             width: 50%;
         }
