@@ -13,7 +13,7 @@
             position: fixed;
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding: 10vh;
             top: 10vh;
             width: 100%;
             overflow: hidden;
