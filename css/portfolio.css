@@ -111,20 +111,25 @@
 
         /* Create three unequal columns that floats next to each other */
         .column {
-          float: left;
-          padding-top: 6vh;
-          padding: 10px;
-          height: 300px; /* Should be removed. Only for demonstration */
+            float: left;
+            padding-top: 6vh;
+            top: 8vh;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
         }
         
         /* Left and right column */
         .column.side {
-          width: 25%;
+            padding-top: 6vh;
+            top: 8vh;
+            width: 25%;
         }
         
         /* Middle column */
         .column.middle {
-          width: 50%;
+            padding-top: 6vh;
+            top: 8vh;
+            width: 50%;
         }
         
         /* Clear floats after the columns */
