@@ -5,6 +5,10 @@
         }
     
         /* NAVIGATION BAR */
+        .navbar {
+            background-color: white;
+        }
+
         ul {
             position: fixed;
             list-style-type: none;
