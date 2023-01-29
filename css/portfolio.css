@@ -111,7 +111,6 @@
     
         .Column_Left {
             float: left;
-            position: static;
             width: 50%;
             top: 150px;
             padding: 10px;
