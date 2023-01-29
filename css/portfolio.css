@@ -14,8 +14,8 @@
             position: fixed;
             list-style-type: none;
             margin: 0;
-            padding: 10vh;
-            top: 10vh;
+            padding: 0;
+            top: 0;
             width: 100%;
             overflow: hidden;
             }
@@ -27,7 +27,7 @@
             li a {
             display: block;
             text-align: center;
-            padding: 14px 16px;
+            padding: 10px 10px;
             text-decoration: none;
         }
 
