@@ -15,25 +15,6 @@
         }
 
 
-
-
-        /* HEADING 1 - ELEMENT STYLE */
-        h1 {
-            font-family: 'Press Start 2P', cursive;
-            font-style: italic;
-            text-align: center;
-            margin-top: 3%;
-            color: yellow;
-            text-shadow: 2px 2px 4px darkviolet;
-        }
-    
-        /* HEADING 1 - ELEMENT STYLE - HOVER EFFECT */
-        h1:hover {
-            text-shadow: 2px 2px 4px darkviolet;
-            transform: scale(1.1);
-            transition: transform 1s;
-        }
-    
         /* TITLE & WELCOME TEXT */
         .white-text {
             color:ghostwhite;
@@ -54,22 +35,9 @@
             padding-right: 1vw; /* Relative padding equal to 1% of the viewport width */
         }
     
-        /* PARAGRAPH ELEMENT STYLE - HOVER EFFECT */
-        p:hover {
-            transition: transform 1s;
-            transform: scale(1.01);
-            text-shadow: 1px 1px 3px darkturquoise;
-        }
-    
         /* CENTER CLASS STYLE */
         .center {
             text-align: center;
-        }
-    
-        /* CENTER CLASS STYLE - HOVER EFFECT */
-        .center:hover {
-            transition: transform 2s;
-            transform: scale(1.1);
         }
     
         /* IMAGE ELEMENT STYLE */
@@ -81,11 +49,6 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-        }
-    
-        /* IMAGE ELEMENT STYLE - HOVER EFFECT */
-        img:hover {
-            filter: grayscale(5%);
         }
     
             @media screen and (max-width: 576px) {
