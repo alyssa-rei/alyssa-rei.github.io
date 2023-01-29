@@ -126,7 +126,6 @@
         
         /* Middle column */
         .column.middle {
-            position: fixed;
             padding-top: 8vh;
             top: 8vh;
             width: 50%;
