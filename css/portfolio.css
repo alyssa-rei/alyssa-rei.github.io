@@ -12,6 +12,10 @@
             user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
         }
 
+        a:hover {
+            text-decoration: none;
+        }
+
 
         /* TITLE & WELCOME TEXT */
         .white-text {
