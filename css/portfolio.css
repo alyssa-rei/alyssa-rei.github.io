@@ -9,7 +9,7 @@
             margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
             opacity: 1; /* This and transition affect the page loading fade in effect */
             transition: 3s opacity; /* This causes a 3 second fade in */
-            background-image: url("https://alyssa-rei.githhub.io/media/images/pexels-gradienta-7130470.jpg");
+        ;
             letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
             font-size: 1.5vw; 
             overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
@@ -20,68 +20,6 @@
         body.fade-out {
             opacity: .1; /* This sets the level of opacity at the start of page load */
         }
-    
-        /***** NAVIGATION BAR STYLING *****/
-        .Navbar {
-            overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-            position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
-            top: 0; /* This ensures no space is displayed above the navbar */
-            width: 100%; /* This makes the navbar span the entire width of the page */
-            z-index: 1; /* This ensures other elements don't display over the navbar */
-            -webkit-animation: moveNav 5s; /* Safari 4.0 - 8.0 */
-            animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
-        }
-    
-            @keyframes moveNav {
-                from {left: -100vw;}
-                to {left: 0vw;}
-            }
-    
-        /* NAVIGATION BAR - LINKS STYLE */
-        .Navbar a {
-            float: left; /* This specifies that the text floats on the left on the navbar */
-            display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-            padding: .75vw 1vw; /* This adds padding around our text */
-            text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-            font-family: 'Press Start 2P', cursive; /* This specifies the font family for text on our navbar */
-            font-size: 1.5vw; /* This specifies the font size for text on our navbar */
-            text-align: center; /* This centers the text within its container */
-            position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-            -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
-            animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */ 
-        }
-    
-            @keyframes moveNavText {
-                from {top: -100vw;}
-                to {top: 0vw;}
-            }
-    
-            @media screen and (max-width: 576px) {
-                .Navbar a{
-                    width: 25%;
-                    font-size: 12px;
-                }
-            }
-    
-        /* NAVIGATION BAR LINKS STYLE - HOVER EFFECT */
-        .Navbar a:hover {
-            background-color: darkturquoise;
-            color: darkviolet;
-            cursor: pointer;
-            transition: 0.5s ease-in; /* Creates a smooth transition for the hover trigger */
-        }
-    
-        /* NAVIGATION BAR - HOME BUTTON STYLE */
-        .Navbar a.active {
-            background-color: darkviolet;
-        }
-    
-        /* NAVIGATION BAR - HOME BUTTON STYLE */
-        .Navbar a.active:hover {
-            background-color: darkviolet;
-            color: darkturquoise;
-        }
-        /***** END OF NAVBAR STYLING *****/
 
 
 
