@@ -4,16 +4,39 @@
         scroll-behavior: smooth; /*This ensures that the page scrolling is smooth when the buttons on the nav bar is clicked */
         }
     
+        /* NAVIGATION BAR */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+            
+            li {
+            float: left;
+            }
+            
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover {
+            background-color: #111;
+        }
+
+
+
         /* BODY */
         body {
             margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
             opacity: 1; /* This and transition affect the page loading fade in effect */
             overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
             user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
-        }
-
-        a:hover {
-            text-decoration: none;
         }
 
 
