@@ -180,15 +180,6 @@
         }
     }
     
-    /*Media rule for navbar links for different screen sizes*/
-    /* Screens 1080px and smaller will display navbar links equally distributed */
-    @media screen and (max-width: 1080px) {
-        .Navbar a{
-            width: 20%; /* This sets each navbar link to 1/5 of the navbar */
-            font-size: 2.5vw;
-        }
-    }
-    
     /* Media rules to enlarge the font of the white text for smaller screens */
     @media screen and (max-width: 1080px) {
         .quote{
