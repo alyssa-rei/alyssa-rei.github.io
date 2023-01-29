@@ -23,7 +23,7 @@
     
         /* HEADING 1 - ELEMENT STYLE */
         h1 {
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: 'Press Start 2P', cursive;
             font-style: italic;
             text-align: center;
             margin-top: 3%;
@@ -50,7 +50,7 @@
         /* PARAGRAPH ELEMENT STYLE */
         p {
             color: white;
-            font-family: Helvetica, Arial, sans-serif Bold;
+            font-family: 'Press Start 2P', cursive;
             text-align: justify;
             letter-spacing: .1vw; /* This expands the text slightly */
             font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
@@ -147,7 +147,7 @@
             color: white; /* This is the font color for text on our navbar */
             padding: .75vw 1vw; /* This adds padding around our text */
             text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-            font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+            font-family: 'Press Start 2P', cursive; /* This specifies the font family for text on our navbar */
             font-size: 1.5vw; /* This specifies the font size for text on our navbar */
             text-align: center; /* This centers the text within its container */
             position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -296,7 +296,7 @@
             bottom: 0; /* This property sets the text at the bottom of the image */
             width: 100%; /* The element covers the full width of the image */
             text-align: center; /* The text is center aligned within the image */
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: 'Press Start 2P', cursive;
             letter-spacing: .1vw; /* This gives slight spacing between the letters */
             font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
             background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
@@ -446,7 +446,7 @@
     
     /* General styling for all buttons */
     button {
-        font-family: "Trebuchet MS", Optima;
+        font-family: 'Press Start 2P', cursive;
         letter-spacing: .3vw; /* Adds slight spacing between the letters */
         font-size: 1.5vw; /* Relative sizing of text */
         font-weight: bold; 
