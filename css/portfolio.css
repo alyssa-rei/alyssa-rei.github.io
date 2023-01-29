@@ -10,12 +10,12 @@
         }
 
         ul {
-            position: -webkit-sticky; /* Safari */
-            position: sticky;
             background-color: white;
             list-style-type: none;
             margin: 0;
             padding: 0;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
             top: 0;
             width: 100%;
             overflow: hidden;
