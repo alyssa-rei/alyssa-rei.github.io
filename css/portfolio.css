@@ -6,32 +6,13 @@
     
         /* NAVIGATION BAR */
         .navbar {
-            background-color: white;
-        }
-
-        ul {
-            background-color: white;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+            background-color: #43b047; /*TEMPORARY COLOR - STYLING GUIDE */
+            padding: 5px 50px;
+            width: 50%;
+            overflow: hidden;
             position: -webkit-sticky; /* Safari */
             position: sticky;
-            top: 0;
-            width: 100%;
-            overflow: hidden;
-            }
-            
-            li {
-            float: left;
-            }
-            
-            li a {
-            display: block;
-            text-align: center;
-            padding: 10px 10px;
-            text-decoration: none;
         }
-
 
         /* BODY */
         body {
@@ -43,7 +24,6 @@
     
         /* PARAGRAPH ELEMENT STYLE */
         p {
-            color: white;
             font-family: 'Press Start 2P', cursive;
             letter-spacing: .1vw; /* This expands the text slightly */
             font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
@@ -73,7 +53,7 @@
         footer {
             padding: 2%;
             background-color: white;
-            color: darkturquoise;
+            color: #049CD8;
         }
     /***** END GENERAL PORTFOLIO STYLING *****/
     
@@ -89,38 +69,54 @@
     
     
     
-    /***** TABLE STYLING *****/
+    /***** BODY STYLING *****/
         * { /* Asterisk = Universal selector that applies effects to all elements on page */
             box-sizing: border-box;
         }
 
         .header {
-            background-color: #f1f1f1;
+            background-color: #049CD8;
             padding: 30px;
             text-align: center;
             font-size: 35px;
         }
 
+        h2 {
+            color: #fff;
+        }
+
         /* Create three unequal columns that floats next to each other */
         .column {
-            float: left;
             padding-top: 8vh;
             top: 8vh;
-            padding: 10px;
         }
         
         /* Left and right column */
-        .column.side {
-            padding-top: 8vh;
+        .column_left {
+            background-color: none;
+            float: none;
+            padding: 1.5%;
             top: 8vh;
             width: 25%;
+            height: 450px;
+        }
+
+        .column_right {
+            background-color: none;
+            float: left;
+            padding: 1.5%;
+            top: 8vh;
+            width: 25%;
+            height: 450px;
         }
         
-        /* Middle column */
-        .column.middle {
-            padding-top: 8vh;
+        /* 50% column */
+        .column_half {
+            float: left; 
+            padding: 1.5%;
             top: 8vh;
             width: 50%;
+            height: auto;
         }
         
         /* Clear floats after the columns */

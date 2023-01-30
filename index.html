@@ -41,61 +41,78 @@
         
         <div class="header">
             <h2>Alyssa Rei</h2>
-            <p style="text-align: center;">Full-stack Software Developer</p>
+            <p style="color: #e52521; text-align: center;">Full-stack Software Developer</p>
         </div>
 
 
 
         <!-- Navigation Bar -->
-        <div class="navbar">
-            <ul>
-            <!-- Home Button -->
-            <li><a href="#Home">
-                <button type="button" class="nes-btn">Home</button>
-            </a></li>
-            <!-- About Button -->
-            <li><a href="#About">
-                <button type="button" class="nes-btn is-primary">About</button>
-            </a></li>
-            <!-- Projects Button -->
-            <li><a href="#Projects">
-                <button type="button" class="nes-btn is-success">Projects</button>
-            </a></li>     
-            <!-- Contact Button -->
-            <li><a href="#Contact">
-                <button type="button" class="nes-btn is-warning">Contact</button>
-            </a></li>
-            </ul>
-        </div> 
+        <div style="width: 100%">
+            <div class="navbar" style="float: left">
+                <!-- Home Button -->
+                <a href="#Home">
+                    <button type="button" class="nes-btn">Home</button>
+                </a>
+                <!-- About Button -->
+                <a href="#About">
+                    <button type="button" class="nes-btn is-primary">About</button>
+                </a>
+                <!-- Projects Button -->
+                <a href="#Projects">
+                    <button type="button" class="nes-btn is-success">Projects</button>
+                </a> 
+                <!-- Contact Button -->
+                <a href="#Contact">
+                    <button type="button" class="nes-btn is-warning">Contact</button>
+                </a>
+            </div>
+            <div class="navbar" style="float: left; text-align: right;">
+                <!-- LinkedIn Icon -->
+                <a href="">
+                    <i class="nes-icon linkedin is-medium"></i>
+                </a>
+                <!-- GitHub Icon -->
+                <a href="">
+                    <i class="nes-icon github is-medium"></i>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="">
+                    <i class="nes-icon instagram is-medium"></i>
+                </a>
+            </div>
+        </div>
         <!-- Navigation Bar: End -->
 
 
 
           
           
-        <div class="row">
+        <div style="width: 100%">
             <!-- Left Column -->
-            <div class="column.side">
-                <p> </p>
+            <div class="column_left" style="float: left;">
+                <div class="nes-container with-title is-left" style="padding-top: 4%; height: 425px;">
+                        <p class="title">Left</p>
+                </div>
             </div>
             <!-- Left Column: End -->
 
-
-
             <!-- About Me -->
-            <div class="column.middle">
-                Hey there!<br>
-                My name is Alyssa Rei.<br>
-                I'm a full-stack Software Developer,<br>
-                based in Portland, Oregon.
+            <div class="column_half">
+                <div class="nes-container with-title is-left" style="padding-top: 2%; height: 425px;">
+                    <p class="title">Alyssa</p>
+                    <p style="font-size: 1.25vw;">Hey there! Welcome!<br>
+                    I'm Alyssa, a full-stack Software Developer, based in Portland, Oregon.<br><br>
+                    I have experience with HTML & CSS, JavaScript, Python, C#, .NET Framework, ASP.NET, MVC,<br>
+                    Back-end development, Databases, SQL, and more.
+                </div>
             </div>
             <!-- About Me: End -->
-
-
         
             <!-- Right Column -->
-            <div class="column.side">
-                <p> </p>
+            <div class="column_right" style="float: left;">
+                <div class="nes-container with-title is-left" style="padding-top: 4%; height: 425px;">
+                    <p class="title">Right</p>
+                </div>
             </div>
             <!-- Right Column: End -->
         </div>
@@ -106,9 +123,6 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>
-
-        </p>
     </footer>
 
     </body>
