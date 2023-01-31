@@ -7,8 +7,10 @@
         /* NAVIGATION BAR */
         .navbar {
             background-color: #43b047; /*TEMPORARY COLOR - STYLING GUIDE */
-            padding: 5px 50px;
-            width: 50%;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            width: 100%;
             overflow: hidden;
             position: -webkit-sticky; /* Safari */
             position: sticky;
@@ -21,6 +23,10 @@
             overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
             user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
         }
+
+        .animate__animated.animate__jackInTheBox {
+            --animate-duration: 1s;
+          }
     
         /* PARAGRAPH ELEMENT STYLE */
         p {
@@ -29,6 +35,11 @@
             font-size: 2.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
             padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
             padding-right: 1vw; /* Relative padding equal to 1% of the viewport width */
+        }
+
+        /* Links - Styling */
+        a:hover {
+            text-decoration: none; /* Removes the default underline for links, upon hover */
         }
     
         /* IMAGE ELEMENT STYLE */
@@ -125,7 +136,7 @@
             display: table;
             clear: both;
         }
-  
+
         /* Style the footer */
         .footer {
             float: center;
